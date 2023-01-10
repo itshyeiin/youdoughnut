@@ -66,11 +66,11 @@ const sr = ScrollReveal({
 
 // sr.reveal(`.home__data`)
 // sr.reveal(`.home__img`, {delay: 500})
-// sr.reveal(`.home__social`, {delay: 600})
-sr.reveal(`.about__img`,{origin: 'right'})
-sr.reveal(`.one`,{origin: 'left'})
-sr.reveal(`.two`,{origin: 'right'})
-sr.reveal(`.three`,{origin: 'left'})
+sr.reveal(`.about__title`, {delay: 600})
+sr.reveal(`.about__img`,{origin: 'left'})
+sr.reveal(`.one`,{origin: 'right'})
+sr.reveal(`.two`,{origin: 'left'})
+sr.reveal(`.three`,{origin: 'bottom'})
 
 // sr.reveal(`.about__data`,{origin: 'right'})
 // sr.reveal(`.mv__card, .section__title-center , .officers__card, .footer`,{interval: 100})
