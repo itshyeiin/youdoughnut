@@ -388,6 +388,26 @@ main{
         top: 15rem;
         left: -4rem;
     }
+    
+        .about__donuts:nth-child(1){
+        width: 110px;
+        top: 1124px;
+        left: 12rem;
+        transform: rotate(-45deg);
+    }
+    
+    .about__donuts:nth-child(2){
+        width: 80px;
+        top: 1140px;
+        left: 3rem;
+    }
+    
+    .about__donuts:nth-child(3){
+        width: 100px;
+        top: 950px;
+        left: 12rem;
+        transform: rotate(45deg);
+    }
 }
 
 /* FOR MEDIUM DEVICES */
