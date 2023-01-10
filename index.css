@@ -206,7 +206,7 @@ main{
 
 .home__title{
     font-family: righteous, cursive;
-    font-size: var(--biggest-font-size);
+    font-size: 2rem;
     color: var(--dark-gray);
 }
 
