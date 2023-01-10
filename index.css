@@ -247,7 +247,7 @@ main{
 
 .home__donuts:nth-child(1){
     width: 150px;
-    left: 12rem;
+    left: 11.5rem;
     top: -4rem;
     transform: rotate(10deg);
     z-index: -1;
@@ -262,7 +262,7 @@ main{
 
 .home__donut1{
     width: 150px;
-    left: 12rem;
+    left: 11.5rem;
     top: 12rem;
 }
 
