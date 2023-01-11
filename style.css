@@ -314,8 +314,7 @@ section{
     position: relative;
 }
 
-.about__section,
-.products__section{
+.about__section{
     background-image: url(.//ABOUT-BG.png);
     background-repeat: no-repeat;
     background-size: cover;
