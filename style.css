@@ -341,7 +341,7 @@ section{
 .about__donut-1,
 .about__donut-2,
 .about__donut-3{
-    position: relative;
+    position: absolute;
     width: 100px;
 }
 
