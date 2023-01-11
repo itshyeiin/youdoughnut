@@ -263,7 +263,7 @@ main{
 
 .home__donuts:nth-child(2){
     width: 120px;
-    /* left: -0.5rem; */
+    left: -1.5rem;
     top: 13rem;
     transform: rotate(60deg);
 }
