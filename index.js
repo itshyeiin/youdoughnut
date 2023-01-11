@@ -69,16 +69,16 @@ const scrollActive = () =>{
 window.addEventListener('scroll', scrollActive)
 
 // GSAP ANIMATION
-TweenMax.from('.home__title', 1, {delay: 1.7, opacity: 0, y: 20, ease: Expo.easeInOut})
-TweenMax.from('.home__description', 1, {delay: 1.8, opacity: 0, y: 20, ease: Expo.easeInOut})
-TweenMax.from('.button', 1, {delay: 1.9, opacity: 0, y: 20, ease: Expo.easeInOut})
-TweenMax.from('.home__img', 1, {delay: 2.1, opacity: 0, y: -800, ease: Expo.easeInOut})
+// TweenMax.from('.home__title', 1, {delay: 1.7, opacity: 0, y: 20, ease: Expo.easeInOut})
+// TweenMax.from('.home__description', 1, {delay: 1.8, opacity: 0, y: 20, ease: Expo.easeInOut})
+// TweenMax.from('.button', 1, {delay: 1.9, opacity: 0, y: 20, ease: Expo.easeInOut})
+// TweenMax.from('.home__img', 1, {delay: 2.1, opacity: 0, y: -800, ease: Expo.easeInOut})
 
-TweenMax.from('.home__donut-1', 1, {delay: 2.7, opacity: 0, y: -800, ease: Expo.easeInOut})
-TweenMax.from('.home__donut-2', 1, {delay: 2.9, opacity: 0, y: -800, ease: Expo.easeInOut})
+// TweenMax.from('.home__donut-1', 1, {delay: 2.7, opacity: 0, y: -800, ease: Expo.easeInOut})
+// TweenMax.from('.home__donut-2', 1, {delay: 2.9, opacity: 0, y: -800, ease: Expo.easeInOut})
 
-TweenMax.from('.home__donut-3', 1, {delay: 3.1, opacity: 0, y: -800, ease: Expo.easeInOut})
-TweenMax.from('.home__donut-4', 1, {delay: 2.9, opacity: 0, y: -800, ease: Expo.easeInOut})
+// TweenMax.from('.home__donut-3', 1, {delay: 3.1, opacity: 0, y: -800, ease: Expo.easeInOut})
+// TweenMax.from('.home__donut-4', 1, {delay: 2.9, opacity: 0, y: -800, ease: Expo.easeInOut})
 
 // POPUP - SCREEN
 const popupScreen = document.querySelector(".popup-screen");
@@ -116,15 +116,15 @@ const sr = ScrollReveal({
     // reset: true
 })
 
-// sr.reveal(`.home__img`,{origin: 'top'})
-// sr.reveal(`.home__title`,{origin: 'bottom'})
-// sr.reveal(`.home__description`,{origin: 'bottom'})
-// sr.reveal(`.button`,{origin: 'bottom'})
+sr.reveal(`.home__img`,{origin: 'top'})
+sr.reveal(`.home__title`,{origin: 'bottom'})
+sr.reveal(`.home__description`,{origin: 'bottom'})
+sr.reveal(`.button`,{origin: 'bottom'})
 
-// sr.reveal(`.home__donut-1`,{origin: 'bottom'})
-// sr.reveal(`.home__donut-2`,{origin: 'right'})
-// sr.reveal(`.home__donut-3`,{origin: 'bottom'})
-// sr.reveal(`.home__donut-4`,{origin: 'left'})
+sr.reveal(`.home__donut-1`,{origin: 'left'})
+sr.reveal(`.home__donut-2`,{origin: 'left'})
+sr.reveal(`.home__donut-3`,{origin: 'left'})
+sr.reveal(`.home__donut-4`,{origin: 'left'})
 
 sr.reveal(`.about__title`, {delay: 600})
 sr.reveal(`.about__img`,{origin: 'left'})
