@@ -69,16 +69,16 @@ const scrollActive = () =>{
 window.addEventListener('scroll', scrollActive)
 
 // GSAP ANIMATION
-TweenMax.from('.home__title', 1, {delay: 0.2, opacity: 0, y: 20, ease: Expo.easeInOut})
-TweenMax.from('.home__description', 1, {delay: 0.3, opacity: 0, y: 20, ease: Expo.easeInOut})
-TweenMax.from('.button', 1, {delay: 0.4, opacity: 0, y: 20, ease: Expo.easeInOut})
-TweenMax.from('.home__img', 1, {delay: 0.6, opacity: 0, y: -800, ease: Expo.easeInOut})
+TweenMax.from('.home__title', 1, {delay: 1.7, opacity: 0, y: 20, ease: Expo.easeInOut})
+TweenMax.from('.home__description', 1, {delay: 1.8, opacity: 0, y: 20, ease: Expo.easeInOut})
+TweenMax.from('.button', 1, {delay: 1.9, opacity: 0, y: 20, ease: Expo.easeInOut})
+TweenMax.from('.home__img', 1, {delay: 2.1, opacity: 0, y: -800, ease: Expo.easeInOut})
 
-TweenMax.from('.home__donut-1', 1, {delay: 1.2, opacity: 0, y: -800, ease: Expo.easeInOut})
-TweenMax.from('.home__donut-2', 1, {delay: 1.4, opacity: 0, y: -800, ease: Expo.easeInOut})
+TweenMax.from('.home__donut-1', 1, {delay: 2.7, opacity: 0, y: -800, ease: Expo.easeInOut})
+TweenMax.from('.home__donut-2', 1, {delay: 2.9, opacity: 0, y: -800, ease: Expo.easeInOut})
 
-TweenMax.from('.home__donut-3', 1, {delay: 1.6, opacity: 0, y: -800, ease: Expo.easeInOut})
-TweenMax.from('.home__donut-4', 1, {delay: 1.4, opacity: 0, y: -800, ease: Expo.easeInOut})
+TweenMax.from('.home__donut-3', 1, {delay: 3.1, opacity: 0, y: -800, ease: Expo.easeInOut})
+TweenMax.from('.home__donut-4', 1, {delay: 2.9, opacity: 0, y: -800, ease: Expo.easeInOut})
 
 // POPUP - SCREEN
 const popupScreen = document.querySelector(".popup-screen");
