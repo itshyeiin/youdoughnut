@@ -80,6 +80,31 @@ TweenMax.from('.home__donut-2', 1, {delay: 1.4, opacity: 0, y: -800, ease: Expo.
 TweenMax.from('.home__donut-3', 1, {delay: 1.6, opacity: 0, y: -800, ease: Expo.easeInOut})
 TweenMax.from('.home__donut-4', 1, {delay: 1.4, opacity: 0, y: -800, ease: Expo.easeInOut})
 
+// POPUP - SCREEN
+const popupScreen = document.querySelector(".popup-screen");
+const popup = document.querySelector(".popup");
+const closeBtn = document.querySelector(".close-btn");
+
+window.addEventListener("load", () => {
+    setTimeout(() => {
+        popupScreen.classList.add("active");
+    }, 2000)
+})
+
+closeBtn.addEventListener("click", () =>{
+    popupScreen.classList.remove("active");
+    document.cookie = "WebsiteName=testWebsite; max-age=" + 24 * 60 * 60;
+
+});
+
+const WebsiteCookie = document.cookie.indexof("WebsiteName=");
+if(WebsiteCookie != 1){
+    popupScreen.style.display = "none";
+}
+
+else{
+    popupScreen.style.display = "flex";
+}
 
 // SCROLL REVEAL ANIMATION
 /*=============== SCROLL REVEAL ANIMATION ===============*/
