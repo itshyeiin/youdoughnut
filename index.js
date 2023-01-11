@@ -80,6 +80,36 @@ window.addEventListener('scroll', scrollActive)
 // TweenMax.from('.home__donut-3', 1, {delay: 3.1, opacity: 0, y: -800, ease: Expo.easeInOut})
 // TweenMax.from('.home__donut-4', 1, {delay: 2.9, opacity: 0, y: -800, ease: Expo.easeInOut})
 
+// SCROLL REVEAL ANIMATION
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 500,
+    // reset: true
+})
+
+sr.reveal(`.home__img`,{origin: 'left'})
+sr.reveal(`.home__title`,{origin: 'bottom'})
+sr.reveal(`.home__description`,{origin: 'bottom'})
+sr.reveal(`.button`,{origin: 'bottom'})
+
+sr.reveal(`.home__donut-1, .home__donut-2, .home__donut-3, .home__donut-4`,{interval: 200})
+
+sr.reveal(`.about__title`, {delay: 600})
+sr.reveal(`.about__img`,{origin: 'left'})
+sr.reveal(`.about__description:nth-child(1)`,{origin: 'right'})
+sr.reveal(`.about__description:nth-child(2)`,{origin: 'left'})
+sr.reveal(`.about__description:nth-child(3)`,{origin: 'bottom'})
+sr.reveal(`.about__donut-1`,{origin: 'bottom'})
+sr.reveal(`.about__donut-2`,{origin: 'top'})
+sr.reveal(`.about__donut-3`,{origin: 'right'})
+
+
+sr.reveal(`.products__title, .product__card, .footer, .footer__logo img, .footer__social`,{interval: 200})
+sr.reveal(`.about_description, .about__donut-1, .about__donut-2, .about__donut-3`,{interval: 200})
+
 // POPUP - SCREEN
 const popupScreen = document.querySelector(".popup-screen");
 const popup = document.querySelector(".popup");
@@ -105,36 +135,3 @@ if(WebsiteCookie != 1){
 else{
     popupScreen.style.display = "flex";
 }
-
-// SCROLL REVEAL ANIMATION
-/*=============== SCROLL REVEAL ANIMATION ===============*/
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 2500,
-    delay: 500,
-    // reset: true
-})
-
-sr.reveal(`.home__img`,{origin: 'top'})
-sr.reveal(`.home__title`,{origin: 'bottom'})
-sr.reveal(`.home__description`,{origin: 'bottom'})
-sr.reveal(`.button`,{origin: 'bottom'})
-
-sr.reveal(`.home__donut-1`,{origin: 'left'})
-sr.reveal(`.home__donut-2`,{origin: 'left'})
-sr.reveal(`.home__donut-3`,{origin: 'left'})
-sr.reveal(`.home__donut-4`,{origin: 'left'})
-
-sr.reveal(`.about__title`, {delay: 600})
-sr.reveal(`.about__img`,{origin: 'left'})
-sr.reveal(`.about__description:nth-child(1)`,{origin: 'right'})
-sr.reveal(`.about__description:nth-child(2)`,{origin: 'left'})
-sr.reveal(`.about__description:nth-child(3)`,{origin: 'bottom'})
-sr.reveal(`.about__donut-1`,{origin: 'bottom'})
-sr.reveal(`.about__donut-2`,{origin: 'top'})
-sr.reveal(`.about__donut-3`,{origin: 'right'})
-
-
-sr.reveal(`.products__title, .product__card, .footer, .footer__logo img, .footer__social`,{interval: 200})
-sr.reveal(`.about_description, .about__donut-1, .about__donut-2, .about__donut-3`,{interval: 200})
