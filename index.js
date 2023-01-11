@@ -101,5 +101,5 @@ sr.reveal(`.about__donut-2`,{origin: 'top'})
 sr.reveal(`.about__donut-3`,{origin: 'right'})
 
 
-sr.reveal(`.product__card, .footer, .footer__logo img, .footer__social`,{interval: 100})
+sr.reveal(`.products__title, .product__card, .footer, .footer__logo img, .footer__social`,{interval: 100})
 sr.reveal(`.about_description, .about__donut-1, .about__donut-2, .about__donut-3`,{interval: 100})
