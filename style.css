@@ -353,12 +353,12 @@ section{
 .about__donut-2{
     width: 90px;
     left: 15rem;
-    bottom: -15rem;
+    bottom: -18rem;
 }
 
 .about__donut-3{
     left: 5rem;
-    bottom: -14rem;
+    bottom: -18rem;
     z-index: -1;
 }
 
