@@ -341,19 +341,19 @@ section{
 .about__donut-1,
 .about__donut-2,
 .about__donut-3{
-    position: absolute;
+    position: relative;
     width: 100px;
 }
 
 .about__donut-1{
     left: 15rem;
-    bottom: -29rem;
+    bottom: -32rem;
 }
 
 .about__donut-2{
     width: 90px;
     left: 15rem;
-    bottom: -15rem;
+    bottom: -19rem;
 }
 
 .about__donut-3{
