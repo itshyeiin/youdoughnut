@@ -338,14 +338,28 @@ section{
     justify-self: center;
 }
 
-.about__donut-1,
+.about__img{
+    animation: rotation 60s infinite linear;
+}
+
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(359deg);
+    }
+}
+
+/* .about__donut-1,
 .about__donut-2,
 .about__donut-3{
     position: absolute;
     width: 100px;
-}
+} */
 
-.about__donut-1{
+/* .about__donut-1{
     left: 15rem;
     bottom: -32rem;
 }
@@ -360,7 +374,7 @@ section{
     left: 5rem;
     bottom: -19rem;
     z-index: -1;
-}
+} */
 
 .about__description{
     padding-bottom: 1.5rem;
